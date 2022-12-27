@@ -1,0 +1,138 @@
+*{
+    margin: 0;
+    padding: 0;
+
+    font-family: 'Roboto', sans-serif;
+}
+.center{ 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center
+}
+@keyframes fadeIn {
+    0%{
+    }
+    100%{
+    }
+}
+
+body{
+    background-image: url(bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/*--- menu*/
+.menu-box{
+    position: fixed;
+    z-index: 10;
+    height: 10vh;
+    width: 100vw;
+    background-color: #5d5c5c8b;
+}
+
+.menu-in{
+    text-decoration: none;
+    color: inherit;
+    color: white;
+    font-size: 1.3vw;
+    text-shadow: 2px 2px 20px #000000;
+}
+.menu-in:hover{
+    text-shadow: 2px 2px 20px #1408ff;
+}
+
+.no-bg{
+    background-color: transparent;
+    border: none;
+    margin-left: 55px;
+    transition: all 1s cubic-bezier(.215, .61, .355, 1);
+}
+.no-bg:hover{
+    background-color: transparent;
+    border: none;
+    scale: 1.2;
+    transition: all 0.5s cubic-bezier(.215, .61, .355, 1);
+}
+
+
+
+#mail{
+    width: 10vw;
+    color: white;
+    font-size: 11vw;
+    position: absolute;
+    margin-left: 3vw;
+    text-decoration: none;
+    left: 30vw;
+    transition: all 500ms cubic-bezier(.215, .61, .355, 1);
+}
+
+
+
+#ig{
+    color: white;
+    font-size: 4vw;
+    width: 5vw;
+    height: 13vh;
+    position: relative;
+    left: 0vw;
+    top: -30vh;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 2px;
+    cursor: pointer;
+    transition: all 500ms cubic-bezier(.215, .61, .355, 1);
+}
+#social{
+    position: relative;
+    top: 45vh;
+    text-shadow: 2px 2px 20px #000000;
+}
+#ig:hover, #mail:hover{
+    color: #ffffff;
+    text-shadow: 1px 1px 15px #02d5ff;
+    transition: all 500ms cubic-bezier(.215, .61, .355, 1);
+}
+
+
+@media (max-width: 1100px) {
+
+    body{
+        background-repeat: no-repeat;
+        background-position-y: 25vh;
+        background-color: #575757;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    .menu-box{
+        opacity: 100%;
+        position: absolute;
+    }
+    #logo{
+        width: 90vw;
+        height: 90vw;
+        border-radius: 50%;
+        margin-top: 20px;
+        margin-left: 20px;
+        box-shadow: 2px 2px 20px #000000;
+        opacity: 0%;
+    }
+    
+    #logo-box{
+        width: 200vw;
+        height: 200vh;
+        opacity: 0%;
+    }
+    #title{
+        position: absolute;
+        top: -9vh;
+    }
+    .des-1{
+        width: 90vw;
+    }
+    .no-bg{
+        margin-left: 15px;
+    }
+}

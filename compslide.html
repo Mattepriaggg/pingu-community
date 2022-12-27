@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <title>Pingu community | Lo staff</title>
+    <link rel="shortcut icon" href=logo.png>
+    <link rel="shortcut icon" href=logo.png>
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1"
+    />
+    <!-- Link Swiper's CSS -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.css"
+    />
+    <link rel="text/javascript" href="index.js">
+    <link rel="stylesheet" href="compslide.css" >
+  
+
+   </head>
+
+  <body>
+
+    <section>
+        <div id="menu-box " class="menu-box center">
+            <ul>
+                <button class="no-bg"><a class="menu-in" href="index.html"><i>Home</i></a></button>
+                <button class="no-bg"><a class="menu-in" href="news.html"><i>News</i></a></button>
+                <button class="no-bg"><a class="menu-in" href="shop.html"><i>Shop</i></a></button>
+                <button class="no-bg"><a class="menu-in" href="contattatici.html"><i>Contattaci</i></a></button>
+            </ul>
+        </div> 
+    </section>
+
+    <!-- Swiper -->
+    <div class="swiper mySwiper">
+      <div id="card1-box" class="swiper-wrapper">
+        <div class="swiper-slide slide slide">
+            <div id="card1" class="card center">
+                <div>
+                    <img id="img1" class="card-img" src="staff-img/4678e6050c55c544b1718facf1550012.png" alt="">
+                </div>
+                
+                <div class="txt-card">
+                    <h1 class="t-card">Samuele</h1>
+                    <span>html, css e js <br><br>FND</span>
+                </div>
+        </div></div>
+        
+        <div id="card2-box" class="swiper-slide slide">
+            <div id="card2" class="card center c2">
+                <div>
+                    <img id="img2" class="card-img" src="staff-img/a66273c5a0328d0d9b6fea8b0d65bdd9.png" alt="">
+                </div>
+                <div class="txt-card">
+                    <h1 class="t-card">Matteo</h1>
+                    <span>html, css <br><br>ADMIN / Project manager</span>
+                </div>
+            </div></div>
+
+
+        <div id="card3-box" class="swiper-slide slide">
+            <div id="card4" class="card center c2">
+                <div>
+                    <img id="img3" class="card-img" src="staff-img/186605a82f83e31c390a9aa47c36dc88.png" alt="">
+                </div>
+                <div class="txt-card">
+                    <h1 class="t-card">Mikayil</h1>
+                    <span>Grafico / web design<br><br>CEO / Manager</span>
+                </div>
+            </div>
+        </div>
+        <div id="card4-box" class="swiper-slide slide">
+            <div id="card5" class="card center c2">
+                <div>
+                    <img id="img4" class="card-img" src="staff-img/1d5adbf2fae05ca20b5bb89f46daad6f.png" alt="">
+                </div>
+                <div class="txt-card">
+                    <h1 class="t-card">Manuele</h1>
+                    <span>Grafica, python <br><br>Grafico / web design</span>
+                </div>
+            </div>
+        </div>
+
+        <div id="card5-box" class="swiper-slide slide">
+            <div id="card6" class="card center c2">
+                <div class="txt-card">
+                    <img id="img5" class="card-img" src="staff-img/53292edaf3641a7c176b8a01c3621bd1.png" alt="">
+                </div>
+                <div class="txt-card">
+                    <h1 class="t-card">Biagio</h1>
+                    <span>Foto montaggi, render grafici<br><br>Grafico / web design</span>
+                </div>
+            </div>
+        </div>
+        <div id="card6-box" class="swiper-slide slide">
+            <div id="card7" class="card center c2">
+                <div>
+                    <img id="img6" class="card-img" src="staff-img/MrPisellinoo.png" alt="">
+                </div>
+                <div class="txt-card">
+                    <h1 class="t-card">Gianluca</h1>
+                    <span>Developer <br><br>Aiutente / Developer<br></span>
+                </div>
+            </div>
+    
+        </div>
+      </div>
+
+    </div>
+    <div class="swiper-button-next"></div>
+    <div class="swiper-button-prev"></div>
+    <div class="swiper-pagination"></div>
+
+    <!-- Swiper JS -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js"></script>
+
+    <!-- Initialize Swiper -->
+    <script>
+        var swiper = new Swiper(".mySwiper", {
+        slidesPerView: 3,
+        spaceBetween: 40,
+        slidesPerGroup: 3,
+        loop: false,
+        loopFillGroupWithBlank: true,
+        pagination: {
+        el: ".swiper-pagination",
+        clickable: true,
+        },
+        navigation: {
+        nextEl: ".swiper-button-next",
+        prevEl: ".swiper-button-prev",
+        },
+        });
+    </script>
+  </body>
+</html>
