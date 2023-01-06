@@ -21,18 +21,15 @@ body{
     background-size: cover;
     background-color: #6e6e6e;
 }
-.logo{
-    width: 3vw;
-    height: 3vw;
+#logo{
+    width: 6vw;
+    height: 9vw;
     border-radius: 50%;
-    margin-top: 10px;
-    margin-left: 20px;
-    box-shadow: 2px 2px 20px #000000;
+    position: absolute;
+    top: -4vh;
+    left: 1vw;
 }
 
-#logo-box{
-    width: 5%;
-}
 #title-box{
     color: white;
     top: 30vh;
@@ -73,14 +70,7 @@ transition: all 0.5s cubic-bezier(.215, .61, .355, 1);}
     text-shadow: 2px 2px 20px #000000;
 }
 
-#logods{
-    position: absolute;
-    left: 90vw;
-    scale: 2;
-    color: #0088e3;
-    text-shadow: 2px 2px 20px #039aff;
-    cursor: pointer;
-}
+
 
 /*-------- CLASS*/
 .menu-box{
@@ -89,6 +79,8 @@ transition: all 0.5s cubic-bezier(.215, .61, .355, 1);}
     height: 10vh;
     width: 100vw;
     background-color: #5d5c5c8b;
+    box-shadow: 0px 0px 30px #757575;
+    box-shadow: 0px 0px 30px #757575;
 }
 
 .menu-in{
@@ -100,6 +92,7 @@ transition: all 0.5s cubic-bezier(.215, .61, .355, 1);}
 }
 .menu-in:hover{
     text-shadow: 2px 2px 20px #1408ff;
+    text-decoration: underline rgba(0, 229, 255, 0.407);
 }
 
 a{
@@ -128,25 +121,18 @@ a{
         opacity: 100%;
         position: absolute;
     }
-    #logo{
+    .logo-box{
         width: 90vw;
         height: 90vw;
-        border-radius: 50%;
-        margin-top: 20px;
-        margin-left: 20px;
         box-shadow: 2px 2px 20px #000000;
         opacity: 0%;
     }
     
-    #logo-box{
-        width: 100vw;
-        height: 100vh;
-        opacity: 0%;
-    }
+
     body{
         background-color: #000000b8;
         background-repeat: no-repeat;
-        background-size: cover;
+        background-size: auto;
     }
     #title{
         position: absolute;
